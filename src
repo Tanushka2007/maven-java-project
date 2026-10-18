@@ -1,1 +1,13 @@
+package com.careertiq.app;
 
+public class App {
+public static void main(String[] args) {
+System.out.println("Hello, Maven!");
+System.out.println("Java application built with Apache Maven.");
+}
+
+public static String greeting() {
+    return "Hello, Maven!";
+}
+
+}
